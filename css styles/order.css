@@ -92,7 +92,7 @@ nav a:hover {
   color: black;
 }
 
-/* FORM SECTION */
+
 form {
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -115,19 +115,17 @@ input[type="radio"] {
   margin-right: 8px;
 }
 
-/* FOOTER SECTION */
+
 footer {
   background-color: #FFF4F4;
-  padding: 20px 40px 10px 40px;
-  margin-top: 70px;
+  padding: 40px 60px;
 }
 
 .footer {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  gap: 320px;
-  margin-bottom: 100px;
+  gap:275px;
 }
 
 .footer-left,
@@ -186,7 +184,7 @@ footer {
 
 .footer-icons {
   display: flex;
-  flex-direction: row;
+  flex-direction: row;   /* important */
   gap: 20px;
   margin-top: 10px;
 }
@@ -195,6 +193,6 @@ footer {
   width: 42px;
   height: 42px;
   object-fit: contain;
-  background: #FFF4F4;
+  background: white;
   padding: 4px;
 }

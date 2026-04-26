@@ -112,11 +112,16 @@ input{
 .contact{
     width: 15%;
     margin-top: 70px;
+    display: flex;         
+    flex-direction: column;
 
 }
 footer {
   background-color: #fff;
   padding: 40px 60px;
+   width: 100%;
+   box-sizing: border-box;
+   
 }
 
 .footer {
@@ -194,6 +199,15 @@ footer {
   background: white;
   padding: 4px;
 }
+
+  hr {
+  border: none;
+  border-top: 2px solid #F7A4A4;
+  width: 100%;
+  margin: 30px 0;
+  display: block;
+}
+
 @media (max-width: 1024px) {
     .menu-grid {
         padding: 10px 5% 80px;
@@ -201,7 +215,7 @@ footer {
     }
 }
 
-/* Mobile (1 item per row) */
+
 @media (max-width: 768px) {
     .menu-grid {
         grid-template-columns: 1fr;
